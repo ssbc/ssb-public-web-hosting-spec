@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": ["type", "about", "publicWebHosting"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "^about$"
+    },
+    "about": {
+      "type": "string",
+      "pattern": "^@[a-zA-Z0-9/+]{42}[AEIMQUYcgkosw048]=.ed25519$"
+    },
+    "publicWebHosting": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

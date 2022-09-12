@@ -1,0 +1,28 @@
+{
+  "name": "ssb-web-viewer-spec",
+  "version": "1.0.0",
+  "description": "spec + schema for public web hosting opt-in",
+  "main": "schema.json",
+  "scripts": {
+    "test": "node test.js | tap-arc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/ssb-web-viewer-spec.git"
+  },
+  "keywords": [
+    "ssb",
+    "web-hosting"
+  ],
+  "author": "mixmix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-web-viewer-spec/issues"
+  },
+  "homepage": "https://github.com/ssbc/ssb-web-viewer-spec#readme",
+  "devDependencies": {
+    "is-my-json-valid": "^2.20.6",
+    "tap-arc": "^0.3.5",
+    "tape": "^5.6.0"
+  }
+}

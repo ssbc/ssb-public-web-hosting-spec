@@ -1,7 +1,7 @@
 # ssb-web-viewer-spec | v1
 
 Scuttlebutt messages are by default not accessible from the world-wide-web.
-For the purposes of being able to share views into the network, running a scuttlebutt peer which
+In some cases sharing content from SSB to the web is desirable, and this is often done by running a scuttlebutt peer which
 also responds to http queries.
 
 This is a privacy concern as putting data on the web makes it easily scrapeable by corporations.

@@ -13,6 +13,5 @@
     "publicWebHosting": {
       "type": "boolean"
     }
-  },
-  "additionalProperties": false
+  }
 }

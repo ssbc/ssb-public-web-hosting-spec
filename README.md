@@ -29,7 +29,7 @@ To subsequently opt out, publish a new message with content:
 {
    type: "about",
    about: FeedId, // must be the feedId of the author
-   publicWebHosting: true
+   publicWebHosting: false
 }
 ```
 

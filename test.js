@@ -48,13 +48,13 @@ test('schema', t => {
     about: '@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519'
   }), 'publicWebHosting required')
 
-  // Extra fields
-  t.false(isValid({
+  // Extra fields allowed
+  t.true(isValid({
     type: 'about',
     about: '@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519',
     publicWebHosting: false,
-    boom: 'bam!'
-  }), 'no additional fields')
+    image: 'my face!'
+  }), 'additional fields allowed')
 
   t.end()
 })

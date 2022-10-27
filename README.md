@@ -1,4 +1,4 @@
-# ssb-web-viewer-spec | v1
+# ssb-public-web-hosting-spec | v1
 
 Scuttlebutt messages are by default not accessible from the world-wide-web.
 For the purposes of being able to share views into the network, running a scuttlebutt peer which
